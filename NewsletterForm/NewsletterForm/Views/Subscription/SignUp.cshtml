@@ -1,0 +1,18 @@
+﻿@model NewsletterForm.Models.Subscription
+
+@{
+    ViewBag.Title = "Sign up for our Newsletter";
+}
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+
+    <div id="newsletter-form-container">
+        @Html.Partial("NewsletterForm")
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

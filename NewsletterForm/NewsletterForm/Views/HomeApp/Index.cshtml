@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Welcome to Greenfinch</h1>
+    <p class="lead">Technical assessment: Newsletter form</p>
+    @Html.ActionLink("Signing up for Newsletter", "SignUp", "Subscription", null, new { @class = "btn btn-primary btn-lg" })
+</div>

@@ -1,0 +1,263 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /*background: #1a1a1a;
+    color: white;*/
+    font-family: 'Segoe UI',Lucida Grande;
+}
+
+.body-content {
+    padding: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI',Lucida Grande;
+    color: #00695c;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+a {
+    color: #16a085;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00695c;
+    text-decoration: none;
+}
+
+::-moz-selection {
+    color: #000;
+    background-color: #ffcc00;
+}
+
+::selection {
+    color: #000;
+    background-color: #ffcc00;
+}
+
+/* common */
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+/* buttons */
+.btn-primary {
+    background-color: #00695c;
+    border-color: #00695c;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #00b59d;
+    border-color: #00b59d;
+    color: #fff;
+}
+
+/* navbar */
+.navbar-inverse {
+    border-bottom: 1px solid #dedcd6;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ccc;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+}
+
+/* navbar cta button*/
+.navbar-inverse .navbar-nav .btn-primary {
+    padding: 0px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.navbar-inverse .navbar-nav .btn-primary a {
+    padding: 5px 15px;
+    color: #fff;
+}
+
+/* logo */
+.logo {
+    margin: 10px;
+    max-width: 30px;
+}
+
+.logo-name {
+    max-width: 100px;
+}
+
+/* form */
+form {
+    padding-right: 20px !important;
+}
+
+.form-action {
+    background: #00695c;
+    color: #fff;
+    margin: 25px auto;
+    width: 340px;
+}
+
+.form-action ul {
+    padding: 0;
+}
+
+.form-action li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.form-action .text-danger {
+    color: #ffcc00;
+}
+
+.form-action {
+    padding: 20px 30px;
+    position: relative;
+}
+
+.form-action h2 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+
+.form-action p {
+    font-size: 12px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.form-action .alert {
+    margin-top: 15px;
+}
+/* form input controls */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+form input[type=text],
+form input[type=email],
+form textarea {
+    width: 100%;
+    background: #fff;
+    border: none;
+    color: #000;
+    font-size: 12pt;
+    outline: none;
+}
+
+form input[type=text],
+form input[type=email] {
+    height: 40px;
+    padding-left: 15px;
+}
+
+form textarea {
+    height: 70px;
+    padding: 15px;
+}
+
+form input[type=submit] {
+    color: #fff;
+    background: #00695c;
+    border: 0;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* placeholders */
+::-webkit-input-placeholder {
+    color: #00695c;
+    font-size: 12pt;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #00695c;
+    font-size: 12pt;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #00695c;
+    font-size: 12pt;
+}
+
+:-ms-input-placeholder {
+    color: #00695c;
+    font-size: 12pt;
+}
+
+/* form button */
+.form-action .btn-primary {
+    border: none;
+    display: block;
+    background: #222222;
+    height: 40px;
+    padding: 0 20px;
+    color: #ccc;
+    border: 0;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.form-action .btn-primary:hover {
+    color: #fff;
+}
+
+/* drop down menu*/    
+select.special {
+    border: 1px solid #111;
+    width: 100%;
+    padding-left: 15px;
+    color: #000;
+    border: 0;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20id%3D%22SvgjsSvg1000%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Asvgjs%3D%22http%3A%2F%2Fsvgjs.com%2Fsvgjs%22%20width%3D%2211%22%20height%3D%225%22%20viewBox%3D%220%200%2011%205%22%3E%3Ctitle%3ETriangle%3C%2Ftitle%3E%3Cdesc%3ECreated%20with%20Avocode.%3C%2Fdesc%3E%3Cdefs%20id%3D%22SvgjsDefs1001%22%3E%3C%2Fdefs%3E%3Cpath%20id%3D%22SvgjsPath1007%22%20d%3D%22M503.46%20899L498.22999999999996%20903.72L492.99999999999994%20899Z%20%22%20fill%3D%22%23333333%22%20fill-opacity%3D%221%22%20transform%3D%22matrix%281%2C0%2C0%2C1%2C-493%2C-899%29%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1rem) center;
+    box-sizing: inherit;
+    font-size: 12pt;
+}
+
+select.special::-ms-expand {
+    display: none; /* remove default arrow in IE 10 and 11 */
+}
+
+select.special.empty {
+    color: #00695c;
+}
+
+#source-other-item {
+    display: none;
+}
+
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select.special {
+        background: none\9;
+        padding: 5px\9;
+    }
+}

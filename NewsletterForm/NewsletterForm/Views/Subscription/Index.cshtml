@@ -1,0 +1,11 @@
+﻿@model IEnumerable<NewsletterForm.Models.Subscription>
+
+@{
+    ViewBag.Title = "Newsletter subscription";
+}
+
+<h2>Subscription entries</h2>
+
+<div id="subscription-list-container">
+    @Html.Partial("SubscriptionList", Model)
+</div>

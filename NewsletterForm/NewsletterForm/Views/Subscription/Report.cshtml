@@ -1,0 +1,78 @@
+﻿@model NewsletterForm.ViewModels.NewsletterFormReport
+
+@{
+    ViewBag.Title = "Report";
+}
+
+<h2>Newsletter form report</h2>
+
+<div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>
+                    Count
+                </th>
+                <th>
+                    Ratio
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>How did you heard about us?</strong></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Advert</td>
+                <td>@Html.DisplayFor(model => model.AdvertCount)</td>
+                <td>@Html.DisplayFor(model => model.AdvertRatio)</td>
+            </tr>
+            <tr>
+                <td>Word of mouth</td>
+                <td>@Html.DisplayFor(model => model.WordOfMouthCount)</td>
+                <td>@Html.DisplayFor(model => model.WordOfMounthRatio)</td>
+            </tr>
+            <tr>
+                <td>Other</td>
+                <td>@Html.DisplayFor(model => model.OtherCount)</td>
+                <td>@Html.DisplayFor(model => model.OtherRatio)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strong>Reason for signing up</strong></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Non-empty answers</td>
+                <td>@Html.DisplayFor(model => model.ReasonEnteredCount)</td>
+                <td>@Html.DisplayFor(model => model.ReasonEnteredRatio)</td>
+            </tr>
+            <tr>
+                <td>Empty answers</td>
+                <td>@Html.DisplayFor(model => model.ReasonNotEnteredCount)</td>
+                <td>@Html.DisplayFor(model => model.ReasonNotEnteredRatio)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total entries</th>
+                <th>@Html.DisplayFor(model => model.Count)</th>
+                <th>100,00%</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>
