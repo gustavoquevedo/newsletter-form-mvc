@@ -1,5 +1,4 @@
 # newsletter-form-mvc
-<<<<<<< HEAD
 Small ASP.NET MVC project with a newsletter form
 =======
 
@@ -41,4 +40,3 @@ Deployment
 ----------
 A deployed version of the web application can be found at:
 http://gtdoro.com/newsletter
->>>>>>> Initial commit
